@@ -15,7 +15,7 @@ This script is designed to utilize a fine-tuned translation model to translate t
 
 1. Install the required libraries:
    ```shell
-   pip install transformers datasets
+   pip install transformers datasets XlsxWriter
 2. Clone the repository or download the script to your local machine.
 
 ## Usage 

@@ -79,9 +79,11 @@ def write_to_excel(original_file_path, language_pairs, excel_file_path):
 
 # Main Process
 # original_file_path = "original_english_text.txt"
-original_file_path = "new_ver_original_english_text.txt"
+# original_file_path = "new_ver_original_english_text.txt"
+original_file_path = "es_txt_old_ver"
 # language_pairs = [("en", "zh"), ("en", "fr"), ("en", "de")]
-language_pairs = [("en", "es")]
-excel_file_path = "en_es_100k_translations.xlsx"
+# language_pairs = [("en", "es")]
+language_pairs = [("es", "en")]
+excel_file_path = "es_en_100k_translations.xlsx"
 
 write_to_excel(original_file_path, language_pairs, excel_file_path)
